@@ -42,7 +42,7 @@ function setup() {
 
 
 
-  ground = new Ground(240,800,490,20)
+  ground = new Ground(240,800,600,20)
 
 
 

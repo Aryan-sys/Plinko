@@ -7,8 +7,8 @@ class Plinko{
             density: 1.2,
 
         }
-        this.body = Bodies.circle(x,y, 10, options );
-this.radius = 10;
+        this.body = Bodies.circle(x,y, 15, options );
+this.radius = 15;
         World.add(world,this.body);
         console.log(this.body.position.x);
     }
@@ -20,7 +20,7 @@ this.radius = 10;
      
         fill("pink");
         ellipseMode(CENTER);
-      ellipse(pos.x,pos.y,10);
+      ellipse(pos.x,pos.y,20);
         pop();
       }
 
